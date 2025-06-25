@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Data & Analytics Projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="side-navbar">
+        <ul>
+            <li><a href="#home" class="nav-link" title="Home"><i class="fas fa-home"></i><span class="nav-label">Home</span></a></li>
+            <li><a href="#featured" class="nav-link" title="Featured"><i class="fas fa-star"></i><span class="nav-label">Featured</span></a></li>
+            <li><a href="#projects" class="nav-link" title="Projects"><i class="fas fa-briefcase"></i><span class="nav-label">Projects</span></a></li>
+            <li><a href="#about" class="nav-link" title="About"><i class="fas fa-user"></i><span class="nav-label">About</span></a></li>
+            <li><a href="#contact" class="nav-link" title="Contact"><i class="fas fa-envelope"></i><span class="nav-label">Contact</span></a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home" class="section hero-section">
+            <div class="container hero-center">
+                <h1 class="hero-title">Hey, I'm <span class="highlight">Pranav Azad</span>,</h1>
+                <h2 class="hero-subtitle-main">A Data & Analytics Professional.</h2>
+                <p class="hero-description">I'm a data enthusiast who enjoys building insightful dashboards, automating workflows, and exploring new technologies.</p>
+                <a href="#" class="resume-btn"><i class="fas fa-download"></i> Resume</a>
+            </div>
+        </section>
+        <section id="featured" class="section featured-section">
+            <div class="container">
+                <h2 class="section-title">Featured Project</h2>
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sales Performance Dashboard</h3>
+                        <p class="project-category">Tableau • Excel • SQL</p>
+                        <p class="project-description">Comprehensive sales analysis dashboard with interactive visualizations and real-time data integration.</p>
+                        <div class="project-tags">
+                            <span class="tag">Dashboard</span>
+                            <span class="tag">Analytics</span>
+                            <span class="tag">Visualization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                
+                <div class="project-categories">
+                    <button class="category-btn active" data-category="all">All Projects</button>
+                    <button class="category-btn" data-category="excel">Excel</button>
+                    <button class="category-btn" data-category="tableau">Tableau</button>
+                    <button class="category-btn" data-category="sql">SQL</button>
+                    <button class="category-btn" data-category="python">Python</button>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card" data-category="excel">
+                        <div class="project-image"><i class="fas fa-table"></i></div>
+                        <div class="project-content">
+                            <h3>Financial Budget Tracker</h3>
+                            <p class="project-category">Excel</p>
+                            <p class="project-description">Dynamic budget tracking system with automated calculations.</p>
+                            <div class="project-tags">
+                                <span class="tag">Budgeting</span>
+                                <span class="tag">Charts</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="tableau">
+                        <div class="project-image"><i class="fas fa-chart-bar"></i></div>
+                        <div class="project-content">
+                            <h3>Customer Analytics Dashboard</h3>
+                            <p class="project-category">Tableau</p>
+                            <p class="project-description">Customer segmentation analysis with RFM modeling.</p>
+                            <div class="project-tags">
+                                <span class="tag">Customer Analytics</span>
+                                <span class="tag">RFM</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="sql">
+                        <div class="project-image"><i class="fas fa-database"></i></div>
+                        <div class="project-content">
+                            <h3>E-commerce Data Analysis</h3>
+                            <p class="project-category">SQL</p>
+                            <p class="project-description">Complex queries analyzing customer behavior and sales patterns.</p>
+                            <div class="project-tags">
+                                <span class="tag">E-commerce</span>
+                                <span class="tag">Queries</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="python">
+                        <div class="project-image"><i class="fab fa-python"></i></div>
+                        <div class="project-content">
+                            <h3>Data Cleaning Automation</h3>
+                            <p class="project-category">Python</p>
+                            <p class="project-description">Automated data cleaning pipeline using pandas and numpy.</p>
+                            <div class="project-tags">
+                                <span class="tag">Automation</span>
+                                <span class="tag">Pandas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a passionate data analyst with expertise in transforming raw data into actionable insights.</p>
+                        <p>Each project represents real-world applications of data analysis techniques.</p>
+                    </div>
+                    <div class="skills">
+                        <h3>Technical Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item"><i class="fas fa-table"></i><span>Excel</span></div>
+                            <div class="skill-item"><i class="fas fa-chart-line"></i><span>Tableau</span></div>
+                            <div class="skill-item"><i class="fas fa-database"></i><span>SQL</span></div>
+                            <div class="skill-item"><i class="fab fa-python"></i><span>Python</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>email@example.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/yourprofile</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
